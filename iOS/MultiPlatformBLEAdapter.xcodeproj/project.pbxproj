@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		488489112CEC99B4005AAC0E /* Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488489102CEC99B4005AAC0E /* Binder.swift */; };
+		488489132CEC99C2005AAC0E /* Date+Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488489122CEC99C2005AAC0E /* Date+Dispatch.swift */; };
+		488489152CEC99D0005AAC0E /* Observable+Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488489142CEC99D0005AAC0E /* Observable+Concurrency.swift */; };
 		816FE39B234F29B3008BF70D /* BleAdapterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816FE39A234F29B3008BF70D /* BleAdapterFactory.swift */; };
 		81B95B92234B256000D96D28 /* BleAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B95B91234B256000D96D28 /* BleAdapter.swift */; };
 		8E63F2D12AB0CE9B0010A0CB /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63F2D02AB0CE9B0010A0CB /* AtomicInt.swift */; };
@@ -94,7 +97,6 @@
 		8EF49F412AB1CDDE0019E5F9 /* CBPeripheralDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF49F402AB1CDDE0019E5F9 /* CBPeripheralDelegateWrapper.swift */; };
 		8EF49F492AB1CE400019E5F9 /* ManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF49F482AB1CE400019E5F9 /* ManagerType.swift */; };
 		8EFF12592AB0C09600399069 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF11E92AB0C09500399069 /* Disposable.swift */; };
-		8EFF125A2AB0C09600399069 /* Date+Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF11EA2AB0C09500399069 /* Date+Dispatch.swift */; };
 		8EFF125B2AB0C09600399069 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF11EB2AB0C09500399069 /* Event.swift */; };
 		8EFF125C2AB0C09600399069 /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF11EC2AB0C09500399069 /* Cancelable.swift */; };
 		8EFF125D2AB0C09600399069 /* DisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF11EE2AB0C09500399069 /* DisposeBase.swift */; };
@@ -118,13 +120,11 @@
 		8EFF12B52AB0C09600399069 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF124A2AB0C09500399069 /* Lock.swift */; };
 		8EFF12B62AB0C09600399069 /* AsyncLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF124B2AB0C09500399069 /* AsyncLock.swift */; };
 		8EFF12B72AB0C09600399069 /* SynchronizedUnsubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF124C2AB0C09500399069 /* SynchronizedUnsubscribeType.swift */; };
-		8EFF12B82AB0C09600399069 /* Observable+Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF124E2AB0C09500399069 /* Observable+Concurrency.swift */; };
 		8EFF12B92AB0C09600399069 /* ImmediateSchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF124F2AB0C09500399069 /* ImmediateSchedulerType.swift */; };
 		8EFF12BA2AB0C09600399069 /* ObservableType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF12502AB0C09500399069 /* ObservableType+Extensions.swift */; };
 		8EFF12BB2AB0C09600399069 /* Bag+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF12522AB0C09600399069 /* Bag+Rx.swift */; };
 		8EFF12BC2AB0C09600399069 /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF12532AB0C09600399069 /* AnyObserver.swift */; };
 		8EFF12BD2AB0C09600399069 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF12542AB0C09600399069 /* Observable.swift */; };
-		8EFF12BE2AB0C09600399069 /* Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF12552AB0C09600399069 /* Binder.swift */; };
 		8EFF12BF2AB0C09600399069 /* GroupedObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF12562AB0C09600399069 /* GroupedObservable.swift */; };
 		8EFF12C02AB0C09600399069 /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF12572AB0C09600399069 /* ObservableConvertibleType.swift */; };
 		8EFF12C12AB0C09600399069 /* ConnectableObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF12582AB0C09600399069 /* ConnectableObservableType.swift */; };
@@ -230,6 +230,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		488489102CEC99B4005AAC0E /* Binder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binder.swift; sourceTree = "<group>"; };
+		488489122CEC99C2005AAC0E /* Date+Dispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Dispatch.swift"; sourceTree = "<group>"; };
+		488489142CEC99D0005AAC0E /* Observable+Concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Concurrency.swift"; sourceTree = "<group>"; };
+		488489162CEC99DB005AAC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		816FE39A234F29B3008BF70D /* BleAdapterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleAdapterFactory.swift; sourceTree = "<group>"; };
 		81B95B91234B256000D96D28 /* BleAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleAdapter.swift; sourceTree = "<group>"; };
 		8E63F2D02AB0CE9B0010A0CB /* AtomicInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicInt.swift; sourceTree = "<group>"; };
@@ -319,7 +323,6 @@
 		8EF49F402AB1CDDE0019E5F9 /* CBPeripheralDelegateWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBPeripheralDelegateWrapper.swift; sourceTree = "<group>"; };
 		8EF49F482AB1CE400019E5F9 /* ManagerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerType.swift; sourceTree = "<group>"; };
 		8EFF11E92AB0C09500399069 /* Disposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
-		8EFF11EA2AB0C09500399069 /* Date+Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Dispatch.swift"; path = "../../../Downloads/RxSwift-6.6.0 6/RxSwift/Date+Dispatch.swift"; sourceTree = "<group>"; };
 		8EFF11EB2AB0C09500399069 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		8EFF11EC2AB0C09500399069 /* Cancelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancelable.swift; sourceTree = "<group>"; };
 		8EFF11EE2AB0C09500399069 /* DisposeBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisposeBase.swift; sourceTree = "<group>"; };
@@ -343,14 +346,11 @@
 		8EFF124A2AB0C09500399069 /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
 		8EFF124B2AB0C09500399069 /* AsyncLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncLock.swift; sourceTree = "<group>"; };
 		8EFF124C2AB0C09500399069 /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
-		8EFF124D2AB0C09500399069 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Downloads/RxSwift-6.6.0 6/RxSwift/Info.plist"; sourceTree = "<group>"; };
-		8EFF124E2AB0C09500399069 /* Observable+Concurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observable+Concurrency.swift"; path = "../../../Downloads/RxSwift-6.6.0 6/RxSwift/Observable+Concurrency.swift"; sourceTree = "<group>"; };
 		8EFF124F2AB0C09500399069 /* ImmediateSchedulerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmediateSchedulerType.swift; sourceTree = "<group>"; };
 		8EFF12502AB0C09500399069 /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extensions.swift"; sourceTree = "<group>"; };
 		8EFF12522AB0C09600399069 /* Bag+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bag+Rx.swift"; sourceTree = "<group>"; };
 		8EFF12532AB0C09600399069 /* AnyObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyObserver.swift; sourceTree = "<group>"; };
 		8EFF12542AB0C09600399069 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
-		8EFF12552AB0C09600399069 /* Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Binder.swift; path = "../../../Downloads/RxSwift-6.6.0 6/RxSwift/Binder.swift"; sourceTree = "<group>"; };
 		8EFF12562AB0C09600399069 /* GroupedObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupedObservable.swift; sourceTree = "<group>"; };
 		8EFF12572AB0C09600399069 /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableConvertibleType.swift; sourceTree = "<group>"; };
 		8EFF12582AB0C09600399069 /* ConnectableObservableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectableObservableType.swift; sourceTree = "<group>"; };
@@ -804,11 +804,11 @@
 				8EFF12C32AB0C0A200399069 /* Observers */,
 				8EFF12C22AB0C0A200399069 /* ObserverType.swift */,
 				8EFF12532AB0C09600399069 /* AnyObserver.swift */,
-				8EFF12552AB0C09600399069 /* Binder.swift */,
+				488489102CEC99B4005AAC0E /* Binder.swift */,
 				8EFF11EC2AB0C09500399069 /* Cancelable.swift */,
 				8EFF12462AB0C09500399069 /* Concurrency */,
 				8EFF12582AB0C09600399069 /* ConnectableObservableType.swift */,
-				8EFF11EA2AB0C09500399069 /* Date+Dispatch.swift */,
+				488489122CEC99C2005AAC0E /* Date+Dispatch.swift */,
 				8EFF11E92AB0C09500399069 /* Disposable.swift */,
 				8EFF11ED2AB0C09500399069 /* Disposables */,
 				8EFF11FB2AB0C09500399069 /* Errors.swift */,
@@ -816,9 +816,9 @@
 				8EFF12512AB0C09600399069 /* Extensions */,
 				8EFF12562AB0C09600399069 /* GroupedObservable.swift */,
 				8EFF124F2AB0C09500399069 /* ImmediateSchedulerType.swift */,
-				8EFF124D2AB0C09500399069 /* Info.plist */,
+				488489162CEC99DB005AAC0E /* Info.plist */,
 				8EFF12542AB0C09600399069 /* Observable.swift */,
-				8EFF124E2AB0C09500399069 /* Observable+Concurrency.swift */,
+				488489142CEC99D0005AAC0E /* Observable+Concurrency.swift */,
 				8EFF12572AB0C09600399069 /* ObservableConvertibleType.swift */,
 				8EFF12452AB0C09500399069 /* ObservableType.swift */,
 				8EFF12502AB0C09500399069 /* ObservableType+Extensions.swift */,
@@ -916,7 +916,6 @@
 				81B95B92234B256000D96D28 /* BleAdapter.swift in Sources */,
 				A8F13E042316BE2F00A70E91 /* DisposableMap.swift in Sources */,
 				8E63F3612AB0D6390010A0CB /* ShareReplayScope.swift in Sources */,
-				8EFF12BE2AB0C09600399069 /* Binder.swift in Sources */,
 				8E63F35F2AB0D6390010A0CB /* CombineLatest.swift in Sources */,
 				8E63F35B2AB0D6390010A0CB /* Zip.swift in Sources */,
 				8EFF12EB2AB0C0F200399069 /* Infallible+Concurrency.swift in Sources */,
@@ -991,8 +990,8 @@
 				A8F13D112316AF7600A70E91 /* BluetoothManager.swift in Sources */,
 				8EFF13172AB0C15500399069 /* SchedulerServices+Emulation.swift in Sources */,
 				8EFF12C92AB0C0A200399069 /* TailRecursiveSink.swift in Sources */,
-				8EFF125A2AB0C09600399069 /* Date+Dispatch.swift in Sources */,
 				8E63F2DD2AB0CF830010A0CB /* InfiniteSequence.swift in Sources */,
+				488489132CEC99C2005AAC0E /* Date+Dispatch.swift in Sources */,
 				8E63F3702AB0D6390010A0CB /* ToArray.swift in Sources */,
 				8EFF12E62AB0C0F200399069 /* Maybe.swift in Sources */,
 				8EFF12592AB0C09600399069 /* Disposable.swift in Sources */,
@@ -1001,12 +1000,12 @@
 				8E63F34F2AB0D6390010A0CB /* Amb.swift in Sources */,
 				A8F13D1B2316AF7600A70E91 /* Observable+Absorb.swift in Sources */,
 				8EFF12652AB0C09600399069 /* SerialDisposable.swift in Sources */,
+				488489112CEC99B4005AAC0E /* Binder.swift in Sources */,
 				8E63F34D2AB0D6390010A0CB /* DistinctUntilChanged.swift in Sources */,
 				8E63F2E12AB0CFC30010A0CB /* Queue.swift in Sources */,
 				8E63F33A2AB0D6390010A0CB /* Debounce.swift in Sources */,
 				8E63F3412AB0D6390010A0CB /* ObserveOn.swift in Sources */,
 				A8F13D1A2316AF7600A70E91 /* RxCBDescriptor.swift in Sources */,
-				8EFF12B82AB0C09600399069 /* Observable+Concurrency.swift in Sources */,
 				8EFF12C82AB0C0A200399069 /* ObserverBase.swift in Sources */,
 				8EFF13202AB0C15500399069 /* ConcurrentMainScheduler.swift in Sources */,
 				8EF49F392AB1CCF30019E5F9 /* Array+Utils.swift in Sources */,
@@ -1049,6 +1048,7 @@
 				8E63F34C2AB0D6390010A0CB /* DelaySubscription.swift in Sources */,
 				8EFF12C72AB0C0A200399069 /* ObserverType.swift in Sources */,
 				8E63F36B2AB0D6390010A0CB /* TakeWithPredicate.swift in Sources */,
+				488489152CEC99D0005AAC0E /* Observable+Concurrency.swift in Sources */,
 				8E63F3492AB0D6390010A0CB /* Decode.swift in Sources */,
 				8E63F2D52AB0CF050010A0CB /* Platform.Darwin.swift in Sources */,
 				8EFF12E42AB0C0F200399069 /* Single.swift in Sources */,
