@@ -335,7 +335,7 @@ public class Peripheral {
                     .ignoreElements()
                     .asObservable()
                     .map { _ in characteristic }
-                    .subscribeOn(CurrentThreadScheduler.instance)
+                    .subscribe(on: CurrentThreadScheduler.instance)
             )
             .merge()
     }
